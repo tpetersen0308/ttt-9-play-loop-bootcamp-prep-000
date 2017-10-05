@@ -41,7 +41,7 @@ def play(board)
   until counter == 9
     turn(board)
     counter += 1
-    if counter % 2 == 0
+    if (counter + 2) % 2 == 0
       token = "X"
     else
       token = "O"
