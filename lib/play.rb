@@ -42,9 +42,9 @@ def play(board)
     turn(board)
     counter += 1
     if (counter + 2) % 2 == 0
-      token = "X"
+      current_player = "X"
     else
-      token = "O"
+      current_player = "O"
     end
   end
 end
